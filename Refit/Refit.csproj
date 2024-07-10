@@ -4,7 +4,7 @@
     <Product>Refit ($(TargetFramework))</Product>
     <TargetFrameworks>net462;netstandard2.0;net6.0;net8.0</TargetFrameworks>
     <GenerateDocumentationFile Condition=" '$(Configuration)' == 'Release' ">true</GenerateDocumentationFile>
-    <NoWarn>$(NoWarn);1591</NoWarn>
+    <!-- <NoWarn>$(NoWarn);1591</NoWarn> -->
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
